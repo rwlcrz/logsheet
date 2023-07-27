@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@400;600&family=Jost:ital,wght@0,400;0,500;1,400&display=swap");
+
+:root {
+  --default-font: "Assistant", sans-serif;
+  --heading-font: "Jost", sans-serif;
+  line-height: 1.5;
+  font-weight: 300;
+}
+body {
+  background-color: #fafafa !important;
+  font-family: var(--default-font) !important;
+  font-weight: 300 !important;
+  font-size: 14px !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font) !important;
+}
+a {
+  text-decoration: none !important;
+}
+.img-task {
+  border-radius: 100%;
+  border: 2px solid #ccc !important;
+}
+.task-card {
+  background-color: #fff;
+}
+.text-target {
+  font-size: 80px;
+  line-height: 1;
+}
